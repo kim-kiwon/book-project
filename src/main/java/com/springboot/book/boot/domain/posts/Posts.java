@@ -33,4 +33,11 @@ public class Posts {
 		this.content = content;
 		this.author = author;
 	}
+
+	// 도메인 중심 설계
+	// update 메소드 service가 아닌 도메인이 가짐
+	public void update(String title, String content) {
+		this.title = title;
+		this.content = content;
+	}
 }

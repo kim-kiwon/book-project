@@ -2,5 +2,7 @@
 .gradle
 .idea
 
+application-oauth.yaml
+
 build
 out
